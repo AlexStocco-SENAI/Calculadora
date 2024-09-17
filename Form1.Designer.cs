@@ -28,10 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             label1 = new Label();
             label2 = new Label();
             progressBar1 = new ProgressBar();
+            timer1 = new System.Windows.Forms.Timer(components);
             SuspendLayout();
             // 
             // label1
@@ -40,7 +42,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(29, 109);
+            label1.Location = new Point(22, 82);
             label1.Name = "label1";
             label1.Size = new Size(202, 37);
             label1.TabIndex = 0;
@@ -52,7 +54,7 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(76, 158);
+            label2.Location = new Point(76, 119);
             label2.Name = "label2";
             label2.Size = new Size(102, 25);
             label2.TabIndex = 1;
@@ -91,5 +93,6 @@
         private Label label1;
         private Label label2;
         private ProgressBar progressBar1;
+        private System.Windows.Forms.Timer timer1;
     }
 }
