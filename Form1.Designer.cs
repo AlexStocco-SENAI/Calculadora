@@ -77,8 +77,10 @@
             Controls.Add(label2);
             Controls.Add(label1);
             DoubleBuffered = true;
+            FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Calculadora 3000";
             ResumeLayout(false);
             PerformLayout();
